@@ -1,0 +1,20 @@
+{
+    "name": "alitak/cache-with-lock",
+    "description": "Create cache with locking to prevent parallel cache creating problem",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "9.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alitak\\CacheWithLock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alitak",
+            "email": "kukel.attila@gmail.com"
+        }
+    ]
+}
